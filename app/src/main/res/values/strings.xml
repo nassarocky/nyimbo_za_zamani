@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Zilipendwa</string>
+
+    <string name="network_dialog_title">Connected?</string>
+    <string name="network_dialog_message">It appears there is no network connection.</string>
+    <string name="network_dialog_button_text">OK</string>
+
+
+    <string name="name_chat">ChatActivity</string>
+    <string name="name_auth_ui">Auth UI demo</string>
+    <string name="name_image">Storage Image Demo</string>
+
+    <string name="desc_chat">Demonstrates using a FirebaseRecyclerAdapter to load data from Firebase Database into a RecyclerView for a basic chat app.</string>
+    <string name="desc_auth_ui">Demonstrates the Firebase Auth UI flow, with customization options.</string>
+    <string name="desc_image">Demonstrates displaying an image from Cloud Storage using Glide.</string>
+
+    <!-- strings for Auth UI demo activities -->
+    <eat-comment/>
+    <string name="launch_title">FirebaseUI Auth Demo</string>
+    <string name="sign_in">Start</string>
+    <string name="green_theme">Green Theme</string>
+    <string name="purple_theme">Purple Theme</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="use_theme_header">Use theme:</string>
+    <string name="logo_header">Logo:</string>
+    <string name="firebase_logo_label">Firebase Auth</string>
+    <string name="google_logo_label">Google</string>
+    <string name="no_logo_label">None</string>
+    <string name="auth_providers_header">Use auth providers:</string>
+    <string name="email_label">Email</string>
+    <string name="facebook_label">Facebook</string>
+    <string name="facebook_label_missing_config">Facebook - configuration missing</string>
+    <string name="twitter_label">Twitter</string>
+    <string name="twitter_label_missing_config">Twitter - configuration missing</string>
+    <string name="google_label">Google</string>
+    <string name="google_label_missing_config">Google - configuration missing</string>
+    <string name="google_tos_label">Google TOS</string>
+    <string name="firebase_tos_label">Firebase TOS</string>
+    <string name="tos_header">Terms of Service URL:</string>
+    <string name="unknown_response">Unexpected onActivityResult response code</string>
+    <string name="unknown_sign_in_response">Unknown response from AuthUI sign-in</string>
+    <string name="sign_in_cancelled">Sign in cancelled</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="signed_in_header">You are signed in!</string>
+    <string name="sign_out">Sign out</string>
+    <string name="delete_account_label">Delete account</string>
+    <string name="sign_out_failed">Sign out failed</string>
+    <string name="delete_account_failed">Delete account failed</string>
+    <string name="user_profile_header">User profile:</string>
+    <string name="profile_picture_content_desc">Profile picture</string>
+    <string name="default_theme">Default theme</string>
+    <string name="configuration_required">Configuration is required - see README.md</string>
+    <string name="other_options_header">Other Options:</string>
+    <string name="enable_smartlock">Enable SmartLock for Passwords</string>
+    <string name="rational_image_perm">This sample will read an image from local storage to upload to Cloud Storage.</string>
+    <string name="anonymous_auth_failed_msg">Anonymous authentication failed, various components of the demo will not work. Make sure your device is online and that Anonymous Auth is configured in your Firebase project(https://console.firebase.google.com/project/_/authentication/providers)</string>
+    <string name="extra_google_scopes">Example extra Google scopes</string>
+    <string name="games">Games</string>
+    <string name="extra_facebook_scopes">Example extra Facebook scopes</string>
+    <string name="friends">Friends</string>
+    <string name="photos">Photos</string>
+    <string name="idp_token">IDP Token</string>
+    <string name="idp_secret">IDP Secret</string>
+    <string name="unknown_error">An unknown error occurred</string>
+    <string name="send">Send</string>
+    <string name="download">Download</string>
+    <string name="upload">Upload</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="accessibility_downloaded_image">Downloaded image</string>
+    <string name="drive_file">Drive File</string>
+    <string name="allow_new_email_acccount">Allow account creation if email does not exist.</string>
+
+    <!-- strings for database demo activities -->
+    <string name="start_chatting">No messages. Start chatting at the bottom!</string>
+    <string name="signed_in">Signed In</string>
+    <!-- main menu options -->
+    <string name="action_refresh">Refresh lists</string>
+    <string name="action_playlist_add">Add playlist</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_news">News</string>
+    <string name="action_about">About</string>
+    <string name="action_contact">Contact</string>
+    <string name="action_help">Help</string>
+    <string name="action_dmca">DMCA Disclaimer</string>
+
+    <!-- text for actionBar menus -->
+
+    <string name="about_content">
+NYIMBO ZA ZAMANI ni Application inayokuwezesha ku download nyimbo nyingi za BONGO FLAVA za zamani kwa urahisi na haraka kuliko Application zote Tanzania, Pia unaweza kuitumia kama MUSIC PLAYER yako, kwa taarifa au tatizo tupigie 0 6 5 3 4 2 2 1 0 1.
+    </string>
+    <string name="news_content">
+News related to NYIMBO ZA ZAMANI will be here. Feature enhancements in the works, bugs to work out, and other information will be presented when necessary.
+    </string>
+    <string name="dmca_content">As stated in 512(d) of the DMCA Online Copyright Infringement Liability Limitation Act, MusiQuik operates as an "Information Location Tool". MusiQuik is a music search engine (but mostly music player). This means we just search other search engines. MusiQuik links to other independent search engines that might host music files. We have absolutely no control over those domains. MusiQuik does not index or keep any digital copies of music WHATSOEVER! MusiQuik does not host any of the songs displayed in the search results AT ALL! You download music files from third party servers/services. All the rights associated with the song results are the property of their respective owners.
+</string>
+
+
+    <string-array name="tabs">
+        <item>Search</item>
+        <item>Tracks</item>
+        <item>Artists</item>
+        <item>Albums</item>
+        <!-- <item>Playlists</item> -->
+    </string-array>
+    <string name="title_activity_launcher">LauncherActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_helper">HelperActivity</string>
+
+    <string name="no_writeable_storage_title">No Writeable Storage</string>
+    <string name="no_writeable_storage_content">There appears to be no writeable storage available on your device. Please make sure your device has external storage.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

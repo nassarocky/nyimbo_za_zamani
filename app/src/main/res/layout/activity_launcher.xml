@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.nyimbozamani.nyimbozazamani.LauncherActivity">
+
+    <include layout="@layout/app_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textCongrats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="ASANTE KWA KUTUMIA APPLICATION YETU"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="umetoka kudownload"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/md_blue_grey_800" />
+
+            <TextView
+                android:id="@+id/textSong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/md_blue_grey_800" />
+
+            <TextView
+                android:id="@+id/textArtist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/md_blue_grey_800" />
+
+            <TextView
+                android:id="@+id/textDisclaimers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="MAELEKEZO YA MUHIMU\n 1. Nyimbo za zamani, ndio inaanza kukua , usikate tamaa kuikosa nyimbo uliyotafuta, kuwa Mvumilivu muda si mrefu nyimbo zote zitakuwepo \n
+2. Ukifurahia huduma zetu, mwambie na mwenzie adownload Application yetu. \n
+3. Ni vixuri ukiitumia Application yetu kama Music player yako kila siku. \n
+4. Kwa tatizo lolote Tupigie 0 6 5 3 4  2 2 1 0 1. \n
+5. Bonyeza hapo chini kutupa Nyota Tano Kwenye PLAYSTORE!."
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Button
+                android:id="@+id/buttonGoHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="RATE US on Play Store!" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

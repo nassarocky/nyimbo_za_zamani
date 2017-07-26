@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="android-styled-dialogs-2.2.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/b45f73789fa36e0548ebab70ce01eb234e50105d/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/b45f73789fa36e0548ebab70ce01eb234e50105d/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.avast/android-styled-dialogs/2.2.0/6d95f00b1260c9fb41d094753a42f515a073aa1e/android-styled-dialogs-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
